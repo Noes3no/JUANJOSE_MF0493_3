@@ -70,9 +70,15 @@ Navegador → Controller (Spring MVC) → Repository (Spring Data JPA) → Hiber
 1. Memoria en PDF: datos personales, descripción, diagrama E-R, pasos de despliegue y capturas.
 2. Ampliar al pliego completo si se exige: 2 tablas relacionadas 1:N, capa `Service`,
    edición de registros y validación de formularios.
-3. Empaquetar el ZIP de entrega sin la carpeta `target/`.
+
+El ZIP de entrega ya está generado sin la carpeta `target/`.
 
 ## Repositorio
 
-Este repositorio se ha creado con el nombre de proyecto **TAREAS_JJ** e incluye el
-historial de cambios agrupado por funcionalidad.
+Repositorio local **TAREAS_JJ**, publicado en:
+
+<https://github.com/Noes3no/Ejercicio_jj>
+
+Rama `main`, 6 commits descriptivos, autor `jj`. El historial está agrupado por
+funcionalidad: estructura y scripts, entidad y repositorio JPA, controlador y vista,
+simulacro de películas, documentación y README.
