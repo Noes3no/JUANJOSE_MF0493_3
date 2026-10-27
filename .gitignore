@@ -1,0 +1,19 @@
+# Salida de compilación de Maven
+target/
+*.class
+
+# Resultados de las pruebas
+resultado_pruebas.txt
+
+# Paquetes de entrega
+*.zip
+*.jar
+
+# Configuración del IDE
+.idea/
+.vscode/
+*.iml
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
