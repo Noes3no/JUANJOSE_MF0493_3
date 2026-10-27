@@ -1,0 +1,19 @@
+PROYECTO Cartelera - Spring MVC + Hibernate
+=========================================
+Scripts (doble clic):
+  probar.bat       Ejecuta las pruebas y dice cuáles pasan o fallan
+                   (cada prueba lleva el número de su TODO).
+  arrancar.bat     Arranca la aplicación. Abre http://localhost:8080/peliculas
+                   Para pararla: Ctrl + C en la ventana negra.
+  empaquetar.bat   Genera target\app.jar (la aplicación lista para desplegar).
+  ejecutar_jar.bat Ejecuta target\app.jar.
+
+Archivos que se editan (carpeta src\main):
+  java\es\hazerta\app\Pelicula.java
+  java\es\hazerta\app\PeliculaRepository.java
+  java\es\hazerta\app\PeliculaController.java
+  resources\templates\lista.html
+  y LEEME_ALUMNO.txt (en esta carpeta)
+
+Proyecto resuelto: las tareas TODO ya están completadas y las 8 pruebas pasan.
+No toques la carpeta src\test ni pom.xml.

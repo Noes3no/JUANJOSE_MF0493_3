@@ -1,0 +1,28 @@
+LEEME DEL ALUMNO
+================
+Nombre y apellidos: Juan José García Geijo
+
+1. ¿Qué hace la aplicación?
+   Es una aplicación web que gestiona una cartelera de películas almacenadas en una base
+   de datos, permitiendo visualizar la lista completa, registrar nuevas películas mediante
+   un formulario y eliminar títulos de la base de datos.
+
+2. ¿Cómo se prueba y cómo se arranca? (nombre de los scripts o comandos)
+   - Probar: doble clic en probar.bat (ejecuta mvn test con las pruebas automatizadas de JUnit).
+   - Arrancar: doble clic en arrancar.bat (ejecuta mvn spring-boot:run) y acceder a http://localhost:8080/peliculas.
+
+3. ¿Para qué sirve cada clase?
+   - Pelicula: representa la entidad/modelo de datos mapeada con @Entity como una tabla relacional en la BD.
+   - PeliculaRepository: es la interfaz DAO/Repositorio que extiende JpaRepository para operaciones CRUD directas.
+   - PeliculaController: controlador de Spring MVC (@Controller) que atiende las peticiones HTTP y selecciona las vistas.
+   - lista.html: plantilla web renderizada por Thymeleaf que contiene la tabla de visualización y el formulario de alta.
+
+4. ¿Qué es Hibernate y qué hace en esta aplicación?
+   Es el motor ORM (Object-Relational Mapping) de referencia en JPA. Se encarga de traducir automáticamente
+   las clases y objetos Java a tablas y registros SQL de la base de datos H2 en memoria.
+
+5. Empaquetado: empaquetar.bat genera el archivo target\app.jar.
+   ¿Cómo se ejecutaría la aplicación en otro ordenador con Java?
+   Se transfiere el archivo empaquetado app.jar y en una consola con Java 17 instalado se ejecuta:
+   java -jar app.jar
+
