@@ -65,10 +65,17 @@ Navegador → Controller (Spring MVC) → Repository (Spring Data JPA) → Hiber
 - `data.sql`: datos de ejemplo (3 registros).
 - `src/test`: 8 pruebas automáticas por proyecto (estructura y funcionales).
 
+## Documentación
+
+La memoria de la práctica está en `0_DOC_SOLUCIONES Y CAMBIOS/`:
+
+- `Garcia_Geijo_Juan_Jose_Documentacion.docx` — versión editable en Word.
+- `Garcia_Geijo_Juan_Jose_Documentacion.pdf` — versión para entregar.
+- `ANALISIS_DE_ERRORES.docx` y `REGISTRO_DE_CAMBIOS_Y_SOLUCIONES.docx` — informes técnicos.
+
 ## Pendientes para la entrega oficial
 
-1. Memoria en PDF: datos personales, descripción, diagrama E-R, pasos de despliegue y capturas.
-2. Ampliar al pliego completo si se exige: 2 tablas relacionadas 1:N, capa `Service`,
+1. Ampliar al pliego completo si se exige: 2 tablas relacionadas 1:N, capa `Service`,
    edición de registros y validación de formularios.
 
 El ZIP de entrega ya está generado sin la carpeta `target/`.
