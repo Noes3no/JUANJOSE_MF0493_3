@@ -1,0 +1,25 @@
+LEEME DEL ALUMNO  (TODO 9)
+==========================
+Nombre y apellidos: (ejemplo de solución)
+
+1. ¿Qué hace la aplicación?
+   Es una aplicación web que muestra una tabla de libros guardados en una base
+   de datos, permite añadir uno nuevo con un formulario y borrar uno existente.
+
+2. ¿Cómo se prueba y cómo se arranca?
+   probar.bat ejecuta las pruebas (mvn test). arrancar.bat arranca la aplicación
+   (mvn spring-boot:run) y se abre http://localhost:8080/libros en el navegador.
+
+3. ¿Para qué sirve cada clase?
+   - Libro: el modelo. Cada objeto es una fila de la tabla libro.
+   - LibroRepository: accede a la base de datos (guardar, listar, borrar) sin SQL.
+   - LibroController: recibe las peticiones del navegador y elige la vista.
+   - lista.html: la página que ve el usuario; Thymeleaf pinta la tabla.
+
+4. ¿Qué es Hibernate y qué hace en esta aplicación?
+   Es el ORM de JPA: convierte las clases Java en tablas y los objetos en filas,
+   y genera el SQL por nosotros.
+
+5. TODO 10: empaquetar.bat genera target\app.jar.
+   En otro ordenador con Java 17 se ejecuta con: java -jar app.jar
+
